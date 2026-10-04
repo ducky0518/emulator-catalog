@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": "2026.10.04",
+ "version": "2026.10.04.1",
  "updated": "2026-10-04",
  "source": "Emulation General Wiki (emulation.gametechwiki.com): the Recommended column of each system page linked from its Main Page, read 2026-10-04. File types and archive support are from each emulator's own documentation.",
  "ratings": {
@@ -3549,6 +3549,17 @@
    ],
    "emulators": [
     {
+     "id": "retroarch:opera",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "bin",
+      "iso",
+      "chd"
+     ],
+     "archives": []
+    },
+    {
      "id": "opera",
      "rating": "recommended",
      "opens": [
@@ -3559,18 +3570,6 @@
      ],
      "archives": [],
      "notes": "Needs the 3DO BIOS."
-    },
-    {
-     "id": "retroarch:opera",
-     "rating": "core",
-     "opens": [
-      "cue",
-      "bin",
-      "iso",
-      "chd",
-      "cue"
-     ],
-     "archives": []
     }
    ]
   },
@@ -5092,7 +5091,6 @@
       "hdf",
       "lha",
       "zip",
-      "lha",
       "uae"
      ],
      "archives": [
