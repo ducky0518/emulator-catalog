@@ -1,0 +1,6281 @@
+{
+ "schema": 1,
+ "version": "2026.10.04",
+ "updated": "2026-10-04",
+ "source": "Emulation General Wiki (emulation.gametechwiki.com): the Recommended column of each system page linked from its Main Page, read 2026-10-04. File types and archive support are from each emulator's own documentation.",
+ "ratings": {
+  "recommended": "✓ on the wiki",
+  "semi": "~ on the wiki",
+  "core": "The RetroArch core the wiki lists for the system",
+  "added": "The known emulator for a system the wiki has no page for",
+  "native": "Nothing to emulate: the games run as they are"
+ },
+ "os_codes": {
+  "W": "Windows",
+  "L": "Linux",
+  "M": "macOS",
+  "A": "Android"
+ },
+ "emulators": {
+  "mame": {
+   "name": "MAME",
+   "os": "WLMA"
+  },
+  "mednafen": {
+   "name": "Mednafen",
+   "os": "WLM"
+  },
+  "ares": {
+   "name": "ares",
+   "os": "WLM"
+  },
+  "mesen": {
+   "name": "Mesen",
+   "os": "WLM"
+  },
+  "finalburn-neo": {
+   "name": "FinalBurn Neo",
+   "os": "WLMA"
+  },
+  "nestopia-ue": {
+   "name": "Nestopia UE",
+   "os": "WLM"
+  },
+  "punes": {
+   "name": "puNES",
+   "os": "WL"
+  },
+  "fceux": {
+   "name": "FCEUX",
+   "os": "WLM"
+  },
+  "nes-emu": {
+   "name": "NES.emu",
+   "os": "A"
+  },
+  "bsnes": {
+   "name": "bsnes / bsnes-hd",
+   "os": "WLM"
+  },
+  "snes9x": {
+   "name": "Snes9x",
+   "os": "WLMA"
+  },
+  "gopher64": {
+   "name": "Gopher64",
+   "os": "WLM"
+  },
+  "rmg": {
+   "name": "Rosalie's Mupen GUI (RMG)",
+   "os": "WL"
+  },
+  "mupen64plus-fz": {
+   "name": "Mupen64Plus FZ",
+   "os": "A"
+  },
+  "dolphin": {
+   "name": "Dolphin",
+   "os": "WLMA"
+  },
+  "cemu": {
+   "name": "Cemu",
+   "os": "WLMA"
+  },
+  "eden": {
+   "name": "Eden",
+   "os": "WLMA"
+  },
+  "ryubing": {
+   "name": "Ryubing",
+   "os": "WLMA"
+  },
+  "sameboy": {
+   "name": "SameBoy",
+   "os": "WLMA"
+  },
+  "bgb": {
+   "name": "BGB",
+   "os": "W"
+  },
+  "gearboy": {
+   "name": "Gearboy",
+   "os": "WLM"
+  },
+  "mgba": {
+   "name": "mGBA",
+   "os": "WLMA"
+  },
+  "vba-m": {
+   "name": "VBA-M",
+   "os": "WLM"
+  },
+  "melonds": {
+   "name": "melonDS",
+   "os": "WLMA"
+  },
+  "desmume": {
+   "name": "DeSmuME",
+   "os": "WLM"
+  },
+  "drastic": {
+   "name": "DraStic",
+   "os": "A"
+  },
+  "azahar": {
+   "name": "Azahar",
+   "os": "WLMA"
+  },
+  "pokemini": {
+   "name": "PokeMini",
+   "os": "WLA"
+  },
+  "genesis-plus-gx": {
+   "name": "Genesis Plus GX",
+   "os": "WLMA"
+  },
+  "blastem": {
+   "name": "BlastEm",
+   "os": "WLM"
+  },
+  "picodrive": {
+   "name": "PicoDrive",
+   "os": "WLMA"
+  },
+  "gearsystem": {
+   "name": "Gearsystem",
+   "os": "WLM"
+  },
+  "emulicious": {
+   "name": "Emulicious",
+   "os": "WLM"
+  },
+  "ymir": {
+   "name": "Ymir",
+   "os": "WLM"
+  },
+  "kronos": {
+   "name": "Kronos",
+   "os": "WL"
+  },
+  "flycast": {
+   "name": "Flycast",
+   "os": "WLMA"
+  },
+  "redream": {
+   "name": "redream",
+   "os": "WLMA"
+  },
+  "supermodel": {
+   "name": "Supermodel",
+   "os": "WLM"
+  },
+  "model2": {
+   "name": "Model 2 Emulator",
+   "os": "W"
+  },
+  "dreampotato": {
+   "name": "DreamPotato",
+   "os": "WLM"
+  },
+  "duckstation": {
+   "name": "DuckStation",
+   "os": "WLMA"
+  },
+  "pcsx2": {
+   "name": "PCSX2",
+   "os": "WLM"
+  },
+  "nethersx2": {
+   "name": "NetherSX2 / ARMSX2",
+   "os": "A"
+  },
+  "rpcs3": {
+   "name": "RPCS3",
+   "os": "WLM"
+  },
+  "shadps4": {
+   "name": "shadPS4",
+   "os": "WLM"
+  },
+  "ppsspp": {
+   "name": "PPSSPP",
+   "os": "WLMA"
+  },
+  "vita3k": {
+   "name": "Vita3K",
+   "os": "WLMA"
+  },
+  "pokketstation": {
+   "name": "pokketstation",
+   "os": "W"
+  },
+  "xemu": {
+   "name": "xemu",
+   "os": "WLM"
+  },
+  "xenia": {
+   "name": "Xenia Canary",
+   "os": "WL"
+  },
+  "geargrafx": {
+   "name": "Geargrafx",
+   "os": "WLM"
+  },
+  "stella": {
+   "name": "Stella",
+   "os": "WLM"
+  },
+  "altirra": {
+   "name": "Altirra",
+   "os": "W"
+  },
+  "atari800": {
+   "name": "Atari800",
+   "os": "WLM"
+  },
+  "prosystem": {
+   "name": "ProSystem",
+   "os": "WLM"
+  },
+  "a7800": {
+   "name": "A7800",
+   "os": "WLM"
+  },
+  "bigpemu": {
+   "name": "BigPEmu",
+   "os": "WL"
+  },
+  "gearlynx": {
+   "name": "Gearlynx",
+   "os": "WLM"
+  },
+  "hatari": {
+   "name": "Hatari",
+   "os": "WLM"
+  },
+  "opera": {
+   "name": "Opera (4DO)",
+   "os": "WLMA"
+  },
+  "jzintv": {
+   "name": "jzIntv",
+   "os": "WLMA"
+  },
+  "o2em": {
+   "name": "O2EM",
+   "os": "WL"
+  },
+  "freechaf": {
+   "name": "FreeChaF",
+   "os": "WLMA"
+  },
+  "vecx": {
+   "name": "vecx",
+   "os": "WLMA"
+  },
+  "potator": {
+   "name": "Potator",
+   "os": "WLM"
+  },
+  "winarcadia": {
+   "name": "WinArcadia",
+   "os": "W"
+  },
+  "geolith": {
+   "name": "Geolith",
+   "os": "WLM"
+  },
+  "teknoparrot": {
+   "name": "TeknoParrot",
+   "os": "W"
+  },
+  "visual-pinball": {
+   "name": "Visual Pinball",
+   "os": "WLM"
+  },
+  "vice": {
+   "name": "VICE",
+   "os": "WLMA"
+  },
+  "amiberry": {
+   "name": "Amiberry",
+   "os": "WLM"
+  },
+  "fs-uae": {
+   "name": "FS-UAE",
+   "os": "WLM"
+  },
+  "winuae": {
+   "name": "WinUAE",
+   "os": "W"
+  },
+  "caprice32": {
+   "name": "CaPriCe32",
+   "os": "WLM"
+  },
+  "openmsx": {
+   "name": "openMSX",
+   "os": "WLMA"
+  },
+  "bluemsx": {
+   "name": "blueMSX",
+   "os": "W"
+  },
+  "fuse": {
+   "name": "FUSE",
+   "os": "WLM"
+  },
+  "eightyone": {
+   "name": "EightyOne",
+   "os": "W"
+  },
+  "zesarux": {
+   "name": "ZEsarUX",
+   "os": "WLM"
+  },
+  "applewin": {
+   "name": "AppleWin",
+   "os": "W"
+  },
+  "kegs": {
+   "name": "KEGS",
+   "os": "WLM"
+  },
+  "snow": {
+   "name": "Snow",
+   "os": "WLM"
+  },
+  "basilisk": {
+   "name": "Basilisk II / SheepShaver",
+   "os": "WLM"
+  },
+  "neko-project-ii": {
+   "name": "Neko Project II (NP2kai)",
+   "os": "WLMA"
+  },
+  "xm8": {
+   "name": "XM8",
+   "os": "WLA"
+  },
+  "m88": {
+   "name": "M88 Kai Plus",
+   "os": "W"
+  },
+  "xm7": {
+   "name": "XM7",
+   "os": "WL"
+  },
+  "tsugaru": {
+   "name": "Tsugaru",
+   "os": "WLM"
+  },
+  "ex1": {
+   "name": "eX1",
+   "os": "W"
+  },
+  "xm6": {
+   "name": "XM6",
+   "os": "WLM"
+  },
+  "b-em": {
+   "name": "B-em",
+   "os": "WLM"
+  },
+  "beebem": {
+   "name": "BeebEm",
+   "os": "W"
+  },
+  "arculator": {
+   "name": "Arculator",
+   "os": "WL"
+  },
+  "rpcemu": {
+   "name": "RPCEmu",
+   "os": "WLM"
+  },
+  "dosbox-staging": {
+   "name": "DOSBox Staging",
+   "os": "WLM"
+  },
+  "dosbox-x": {
+   "name": "DOSBox-X",
+   "os": "WLM"
+  },
+  "86box": {
+   "name": "86Box",
+   "os": "WLM"
+  },
+  "scummvm": {
+   "name": "ScummVM",
+   "os": "WLMA"
+  },
+  "pico-8": {
+   "name": "PICO-8",
+   "os": "WLM"
+  },
+  "ardens": {
+   "name": "Ardens",
+   "os": "WLM"
+  },
+  "eka2l1": {
+   "name": "EKA2L1",
+   "os": "WLMA"
+  },
+  "nuance": {
+   "name": "Nuance Resurrection",
+   "os": "WL"
+  },
+  "xroar": {
+   "name": "XRoar",
+   "os": "WLM"
+  },
+  "oricutron": {
+   "name": "Oricutron",
+   "os": "WLM"
+  },
+  "simcoupe": {
+   "name": "SimCoupe",
+   "os": "WLM"
+  },
+  "classic99": {
+   "name": "Classic99",
+   "os": "W"
+  },
+  "uzem": {
+   "name": "Uzem",
+   "os": "WL"
+  },
+  "wasm-4": {
+   "name": "WASM-4",
+   "os": "WLM"
+  },
+  "hypseus": {
+   "name": "Hypseus Singe",
+   "os": "WLM"
+  },
+  "touchhle": {
+   "name": "touchHLE",
+   "os": "WLMA"
+  },
+  "native": {
+   "name": "No emulator (runs as is)",
+   "os": "WLMA",
+   "kind": "native"
+  },
+  "retroarch:mesen": {
+   "name": "RetroArch: Mesen",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:nestopia": {
+   "name": "RetroArch: Nestopia",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:fceumm": {
+   "name": "RetroArch: FCEUmm",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:bsnes": {
+   "name": "RetroArch: bsnes",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:snes9x": {
+   "name": "RetroArch: Snes9x",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mupen64plus_next": {
+   "name": "RetroArch: Mupen64Plus-Next",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:dolphin": {
+   "name": "RetroArch: Dolphin",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:gambatte": {
+   "name": "RetroArch: Gambatte",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:sameboy": {
+   "name": "RetroArch: SameBoy",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mgba": {
+   "name": "RetroArch: mGBA",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:melonds": {
+   "name": "RetroArch: melonDS",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:melondsds": {
+   "name": "RetroArch: melonDS DS",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:desmume": {
+   "name": "RetroArch: DeSmuME",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:pokemini": {
+   "name": "RetroArch: PokeMini",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:genesis_plus_gx": {
+   "name": "RetroArch: Genesis Plus GX",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:picodrive": {
+   "name": "RetroArch: PicoDrive",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:gearsystem": {
+   "name": "RetroArch: Gearsystem",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_saturn": {
+   "name": "RetroArch: Beetle Saturn",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:yabasanshiro": {
+   "name": "RetroArch: Yaba Sanshiro",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:flycast": {
+   "name": "RetroArch: Flycast",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:vemulator": {
+   "name": "RetroArch: VeMUlator",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_psx_hw": {
+   "name": "RetroArch: Beetle PSX HW",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:swanstation": {
+   "name": "RetroArch: SwanStation",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:pcsx_rearmed": {
+   "name": "RetroArch: PCSX ReARMed",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:lrps2": {
+   "name": "RetroArch: LRPS2",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:ppsspp": {
+   "name": "RetroArch: PPSSPP",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_pce": {
+   "name": "RetroArch: Beetle PCE",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_supergrafx": {
+   "name": "RetroArch: Beetle SuperGrafx",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_pcfx": {
+   "name": "RetroArch: Beetle PC-FX",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:stella": {
+   "name": "RetroArch: Stella",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:atari800": {
+   "name": "RetroArch: Atari800",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:prosystem": {
+   "name": "RetroArch: ProSystem",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:virtualjaguar": {
+   "name": "RetroArch: Virtual Jaguar",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_lynx": {
+   "name": "RetroArch: Beetle Lynx",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:handy": {
+   "name": "RetroArch: Handy",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:hatari": {
+   "name": "RetroArch: Hatari",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:opera": {
+   "name": "RetroArch: Opera",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:freeintv": {
+   "name": "RetroArch: FreeIntv",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:freechaf": {
+   "name": "RetroArch: FreeChaF",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:vecx": {
+   "name": "RetroArch: vecx",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:potator": {
+   "name": "RetroArch: Potator",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_ngp": {
+   "name": "RetroArch: Beetle NeoPop",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_wswan": {
+   "name": "RetroArch: Beetle Cygne",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mednafen_vb": {
+   "name": "RetroArch: Beetle VB",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:neocd": {
+   "name": "RetroArch: NeoCD",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:fbneo": {
+   "name": "RetroArch: FinalBurn Neo",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:mame": {
+   "name": "RetroArch: MAME",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:vice_x64sc": {
+   "name": "RetroArch: VICE x64sc",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:vice_x128": {
+   "name": "RetroArch: VICE x128",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:vice_xvic": {
+   "name": "RetroArch: VICE xvic",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:vice_xpet": {
+   "name": "RetroArch: VICE xpet",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:vice_xplus4": {
+   "name": "RetroArch: VICE xplus4",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:puae": {
+   "name": "RetroArch: PUAE",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:cap32": {
+   "name": "RetroArch: Caprice32",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:bluemsx": {
+   "name": "RetroArch: blueMSX",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:fmsx": {
+   "name": "RetroArch: fMSX",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:fuse": {
+   "name": "RetroArch: Fuse",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:81": {
+   "name": "RetroArch: EightyOne",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:np2kai": {
+   "name": "RetroArch: Neko Project II Kai",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:quasi88": {
+   "name": "RetroArch: QUASI88",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:px68k": {
+   "name": "RetroArch: PX68k",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:x1": {
+   "name": "RetroArch: X Millennium",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:dosbox_pure": {
+   "name": "RetroArch: DOSBox Pure",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:scummvm": {
+   "name": "RetroArch: ScummVM",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:same_cdi": {
+   "name": "RetroArch: SAME CDi",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:minivmac": {
+   "name": "RetroArch: Mini vMac",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:gearcoleco": {
+   "name": "RetroArch: Gearcoleco",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:jollycv": {
+   "name": "RetroArch: JollyCV",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:sameduck": {
+   "name": "RetroArch: SameDuck",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:theodore": {
+   "name": "RetroArch: Theodore",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:uzem": {
+   "name": "RetroArch: Uzem",
+   "os": "WLMA",
+   "kind": "retroarch"
+  },
+  "retroarch:arduous": {
+   "name": "RetroArch: Arduous",
+   "os": "WLMA",
+   "kind": "retroarch"
+  }
+ },
+ "systems": [
+  {
+   "key": "nes",
+   "name": "Nintendo Entertainment System / Famicom",
+   "wiki": "Nintendo Entertainment System emulators",
+   "launchbox": [
+    "Nintendo Entertainment System"
+   ],
+   "emulators": [
+    {
+     "id": "nestopia-ue",
+     "rating": "recommended",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "mesen",
+     "rating": "recommended",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds",
+      "studybox"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "punes",
+     "rating": "recommended",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "fceux",
+     "rating": "semi",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "nes-emu",
+     "rating": "recommended",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:mesen",
+     "rating": "core",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:nestopia",
+     "rating": "core",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:fceumm",
+     "rating": "core",
+     "opens": [
+      "nes",
+      "unf",
+      "unif",
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "fds",
+   "name": "Famicom Disk System",
+   "wiki": "Nintendo Entertainment System emulators",
+   "launchbox": [
+    "Nintendo Famicom Disk System"
+   ],
+   "emulators": [
+    {
+     "id": "mesen",
+     "rating": "recommended",
+     "opens": [
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "Needs the FDS BIOS (disksys.rom)."
+    },
+    {
+     "id": "nestopia-ue",
+     "rating": "recommended",
+     "opens": [
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "Needs the FDS BIOS."
+    },
+    {
+     "id": "punes",
+     "rating": "recommended",
+     "opens": [
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:mesen",
+     "rating": "core",
+     "opens": [
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:fceumm",
+     "rating": "core",
+     "opens": [
+      "fds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "snes",
+   "name": "Super Nintendo / Super Famicom",
+   "wiki": "Super Nintendo Entertainment System emulators",
+   "launchbox": [
+    "Super Nintendo Entertainment System"
+   ],
+   "emulators": [
+    {
+     "id": "bsnes",
+     "rating": "recommended",
+     "opens": [
+      "sfc",
+      "smc",
+      "fig",
+      "swc",
+      "bs",
+      "st"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "snes9x",
+     "rating": "recommended",
+     "opens": [
+      "sfc",
+      "smc",
+      "fig",
+      "swc",
+      "bs",
+      "st"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "sfc",
+      "smc",
+      "fig",
+      "swc",
+      "bs",
+      "st"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mesen",
+     "rating": "recommended",
+     "opens": [
+      "sfc",
+      "smc",
+      "fig",
+      "swc",
+      "bs",
+      "st"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:bsnes",
+     "rating": "core",
+     "opens": [
+      "sfc",
+      "smc",
+      "fig",
+      "swc",
+      "bs",
+      "st"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:snes9x",
+     "rating": "core",
+     "opens": [
+      "sfc",
+      "smc",
+      "fig",
+      "swc",
+      "bs",
+      "st"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "satellaview",
+   "name": "Satellaview",
+   "wiki": "Super Nintendo Entertainment System emulators",
+   "launchbox": [
+    "Nintendo Satellaview"
+   ],
+   "emulators": [
+    {
+     "id": "bsnes",
+     "rating": "recommended",
+     "opens": [
+      "bs",
+      "sfc"
+     ],
+     "archives": [
+      "zip"
+     ],
+     "notes": "Needs the BS-X BIOS."
+    },
+    {
+     "id": "snes9x",
+     "rating": "recommended",
+     "opens": [
+      "bs",
+      "sfc"
+     ],
+     "archives": [
+      "zip"
+     ],
+     "notes": "Needs the BS-X BIOS."
+    },
+    {
+     "id": "retroarch:snes9x",
+     "rating": "core",
+     "opens": [
+      "bs",
+      "sfc"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "n64",
+   "name": "Nintendo 64",
+   "wiki": "Nintendo 64 emulators",
+   "launchbox": [
+    "Nintendo 64"
+   ],
+   "emulators": [
+    {
+     "id": "gopher64",
+     "rating": "recommended",
+     "opens": [
+      "z64",
+      "n64",
+      "v64"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "rmg",
+     "rating": "recommended",
+     "opens": [
+      "z64",
+      "n64",
+      "v64",
+      "ndd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "z64",
+      "n64",
+      "v64"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mupen64plus-fz",
+     "rating": "recommended",
+     "opens": [
+      "z64",
+      "n64",
+      "v64"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:mupen64plus_next",
+     "rating": "core",
+     "opens": [
+      "z64",
+      "n64",
+      "v64",
+      "ndd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "n64dd",
+   "name": "Nintendo 64DD",
+   "wiki": "Nintendo 64 emulators",
+   "launchbox": [
+    "Nintendo 64DD"
+   ],
+   "emulators": [
+    {
+     "id": "rmg",
+     "rating": "recommended",
+     "opens": [
+      "ndd",
+      "d64"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "Needs the 64DD IPL ROM."
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "ndd"
+     ],
+     "archives": [
+      "zip"
+     ],
+     "notes": "Needs the 64DD IPL ROM."
+    },
+    {
+     "id": "retroarch:mupen64plus_next",
+     "rating": "core",
+     "opens": [
+      "ndd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "gamecube",
+   "name": "GameCube",
+   "wiki": "Nintendo GameCube emulators",
+   "launchbox": [
+    "Nintendo GameCube"
+   ],
+   "emulators": [
+    {
+     "id": "dolphin",
+     "rating": "recommended",
+     "opens": [
+      "iso",
+      "gcm",
+      "gcz",
+      "rvz",
+      "wia",
+      "ciso",
+      "dol",
+      "elf"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:dolphin",
+     "rating": "core",
+     "opens": [
+      "iso",
+      "gcm",
+      "gcz",
+      "rvz",
+      "wia",
+      "ciso",
+      "dol",
+      "elf"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "wii",
+   "name": "Wii",
+   "wiki": "Wii emulators",
+   "launchbox": [
+    "Nintendo Wii"
+   ],
+   "emulators": [
+    {
+     "id": "dolphin",
+     "rating": "recommended",
+     "opens": [
+      "iso",
+      "wbfs",
+      "rvz",
+      "wia",
+      "gcz",
+      "ciso",
+      "dol",
+      "elf",
+      "wad"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:dolphin",
+     "rating": "core",
+     "opens": [
+      "iso",
+      "wbfs",
+      "rvz",
+      "wia",
+      "gcz",
+      "ciso",
+      "dol",
+      "elf",
+      "wad"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "wiiu",
+   "name": "Wii U",
+   "wiki": "Wii U emulators",
+   "launchbox": [
+    "Nintendo Wii U"
+   ],
+   "emulators": [
+    {
+     "id": "cemu",
+     "rating": "recommended",
+     "opens": [
+      "wua",
+      "wux",
+      "wud",
+      "rpx",
+      "elf",
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Disc dumps (.wud/.wux) need the disc's key; .wua is Cemu's single-file format."
+    }
+   ]
+  },
+  {
+   "key": "switch",
+   "name": "Nintendo Switch",
+   "wiki": "Nintendo Switch emulators",
+   "launchbox": [
+    "Nintendo Switch"
+   ],
+   "emulators": [
+    {
+     "id": "eden",
+     "rating": "recommended",
+     "opens": [
+      "nsp",
+      "xci",
+      "nca",
+      "nro",
+      "nso"
+     ],
+     "archives": [],
+     "notes": "Needs your console's keys and firmware."
+    },
+    {
+     "id": "ryubing",
+     "rating": "recommended",
+     "opens": [
+      "nsp",
+      "xci",
+      "nca",
+      "nro",
+      "nso"
+     ],
+     "archives": [],
+     "notes": "Needs your console's keys and firmware."
+    }
+   ]
+  },
+  {
+   "key": "switch2",
+   "name": "Nintendo Switch 2",
+   "wiki": "Nintendo Switch 2 emulators",
+   "launchbox": [
+    "Nintendo Switch 2"
+   ],
+   "emulators": []
+  },
+  {
+   "key": "gb",
+   "name": "Game Boy / Game Boy Color",
+   "wiki": "Game Boy (Color) emulators",
+   "launchbox": [
+    "Nintendo Game Boy",
+    "Nintendo Game Boy Color"
+   ],
+   "emulators": [
+    {
+     "id": "sameboy",
+     "rating": "recommended",
+     "opens": [
+      "gb",
+      "gbc",
+      "sgb",
+      "isx"
+     ],
+     "archives": []
+    },
+    {
+     "id": "bgb",
+     "rating": "recommended",
+     "opens": [
+      "gb",
+      "gbc",
+      "sgb"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "emulicious",
+     "rating": "recommended",
+     "opens": [
+      "gb",
+      "gbc",
+      "sgb"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "gearboy",
+     "rating": "semi",
+     "opens": [
+      "gb",
+      "gbc",
+      "sgb",
+      "dmg",
+      "cgb"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mgba",
+     "rating": "semi",
+     "opens": [
+      "gb",
+      "gbc",
+      "sgb"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:gambatte",
+     "rating": "core",
+     "opens": [
+      "gb",
+      "gbc",
+      "sgb",
+      "dmg"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:sameboy",
+     "rating": "core",
+     "opens": [
+      "gb",
+      "gbc",
+      "sgb"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "gba",
+   "name": "Game Boy Advance",
+   "wiki": "Game Boy Advance emulators",
+   "launchbox": [
+    "Nintendo Game Boy Advance"
+   ],
+   "emulators": [
+    {
+     "id": "mgba",
+     "rating": "recommended",
+     "opens": [
+      "gba",
+      "agb",
+      "bin",
+      "elf",
+      "mb"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "mesen",
+     "rating": "recommended",
+     "opens": [
+      "gba"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "vba-m",
+     "rating": "semi",
+     "opens": [
+      "gba",
+      "agb",
+      "bin",
+      "elf",
+      "mb"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:mgba",
+     "rating": "core",
+     "opens": [
+      "gba"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "nds",
+   "name": "Nintendo DS",
+   "wiki": "Nintendo DS emulators",
+   "launchbox": [
+    "Nintendo DS"
+   ],
+   "emulators": [
+    {
+     "id": "melonds",
+     "rating": "recommended",
+     "opens": [
+      "nds",
+      "dsi",
+      "srl",
+      "ids"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "desmume",
+     "rating": "recommended",
+     "opens": [
+      "nds",
+      "ids",
+      "srl"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "drastic",
+     "rating": "recommended",
+     "opens": [
+      "nds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:melondsds",
+     "rating": "core",
+     "opens": [
+      "nds",
+      "dsi"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:desmume",
+     "rating": "core",
+     "opens": [
+      "nds"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "3ds",
+   "name": "Nintendo 3DS",
+   "wiki": "Nintendo 3DS emulators",
+   "launchbox": [
+    "Nintendo 3DS"
+   ],
+   "emulators": [
+    {
+     "id": "azahar",
+     "rating": "recommended",
+     "opens": [
+      "3ds",
+      "cci",
+      "cxi",
+      "3dsx",
+      "app",
+      "elf",
+      "axf",
+      "zcci",
+      "zcxi",
+      "z3dsx"
+     ],
+     "archives": [],
+     "notes": "Reads decrypted dumps only."
+    }
+   ]
+  },
+  {
+   "key": "virtual-boy",
+   "name": "Virtual Boy",
+   "wiki": "Virtual Boy emulators",
+   "launchbox": [
+    "Nintendo Virtual Boy"
+   ],
+   "emulators": [
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "vb",
+      "vboy",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:mednafen_vb",
+     "rating": "core",
+     "opens": [
+      "vb",
+      "vboy",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pokemon-mini",
+   "name": "Pokémon mini",
+   "wiki": "Pokémon Mini emulators",
+   "launchbox": [
+    "Nintendo Pokemon Mini"
+   ],
+   "emulators": [
+    {
+     "id": "pokemini",
+     "rating": "recommended",
+     "opens": [
+      "min"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:pokemini",
+     "rating": "core",
+     "opens": [
+      "min"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "game-and-watch",
+   "name": "Game & Watch",
+   "wiki": "Game & Watch",
+   "launchbox": [
+    "Nintendo Game & Watch"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "MAME software list sets."
+    }
+   ]
+  },
+  {
+   "key": "sg1000",
+   "name": "SG-1000 / SC-3000",
+   "wiki": "SG-1000",
+   "launchbox": [
+    "Sega SG-1000",
+    "Sega SC-3000",
+    "Othello Multivision"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd",
+      "sg",
+      "sc",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "sg",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "genesis-plus-gx",
+     "rating": "semi",
+     "opens": [
+      "sg",
+      "sc",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "gearsystem",
+     "rating": "semi",
+     "opens": [
+      "sg",
+      "sc",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:genesis_plus_gx",
+     "rating": "core",
+     "opens": [
+      "sg",
+      "sc",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:gearsystem",
+     "rating": "core",
+     "opens": [
+      "sg",
+      "sc"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "master-system",
+   "name": "Master System / Mark III",
+   "wiki": "Master System/Game Gear emulators",
+   "launchbox": [
+    "Sega Master System"
+   ],
+   "emulators": [
+    {
+     "id": "genesis-plus-gx",
+     "rating": "recommended",
+     "opens": [
+      "sms",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "sms"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "emulicious",
+     "rating": "recommended",
+     "opens": [
+      "sms"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "gearsystem",
+     "rating": "recommended",
+     "opens": [
+      "sms",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:genesis_plus_gx",
+     "rating": "core",
+     "opens": [
+      "sms",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:picodrive",
+     "rating": "core",
+     "opens": [
+      "sms"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:gearsystem",
+     "rating": "core",
+     "opens": [
+      "sms"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "game-gear",
+   "name": "Game Gear",
+   "wiki": "Master System/Game Gear emulators",
+   "launchbox": [
+    "Sega Game Gear"
+   ],
+   "emulators": [
+    {
+     "id": "genesis-plus-gx",
+     "rating": "recommended",
+     "opens": [
+      "gg"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "gg"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "emulicious",
+     "rating": "recommended",
+     "opens": [
+      "gg"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "gearsystem",
+     "rating": "recommended",
+     "opens": [
+      "gg"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:genesis_plus_gx",
+     "rating": "core",
+     "opens": [
+      "gg"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:gearsystem",
+     "rating": "core",
+     "opens": [
+      "gg"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "genesis",
+   "name": "Mega Drive / Genesis",
+   "wiki": "Sega Genesis emulators",
+   "launchbox": [
+    "Sega Genesis"
+   ],
+   "emulators": [
+    {
+     "id": "blastem",
+     "rating": "recommended",
+     "opens": [
+      "md",
+      "gen",
+      "smd",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "genesis-plus-gx",
+     "rating": "recommended",
+     "opens": [
+      "md",
+      "gen",
+      "smd",
+      "bin",
+      "sms",
+      "gg",
+      "sg"
+     ],
+     "archives": []
+    },
+    {
+     "id": "picodrive",
+     "rating": "recommended",
+     "opens": [
+      "md",
+      "gen",
+      "smd",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "md",
+      "gen",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:genesis_plus_gx",
+     "rating": "core",
+     "opens": [
+      "md",
+      "gen",
+      "smd",
+      "bin",
+      "sms",
+      "gg",
+      "sg"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:picodrive",
+     "rating": "core",
+     "opens": [
+      "md",
+      "gen",
+      "smd",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "sega-cd",
+   "name": "Mega-CD / Sega CD",
+   "wiki": "Sega Genesis emulators",
+   "launchbox": [
+    "Sega CD"
+   ],
+   "emulators": [
+    {
+     "id": "genesis-plus-gx",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso",
+      "chd",
+      "m3u"
+     ],
+     "archives": [],
+     "notes": "Needs the Sega CD BIOS."
+    },
+    {
+     "id": "picodrive",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso",
+      "chd"
+     ],
+     "archives": [],
+     "notes": "Needs the Sega CD BIOS."
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "chd"
+     ],
+     "archives": [],
+     "notes": "Needs the Sega CD BIOS."
+    },
+    {
+     "id": "retroarch:genesis_plus_gx",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "iso",
+      "chd",
+      "m3u"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:picodrive",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "iso",
+      "chd"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "32x",
+   "name": "32X",
+   "wiki": "Sega Genesis emulators",
+   "launchbox": [
+    "Sega 32X"
+   ],
+   "emulators": [
+    {
+     "id": "picodrive",
+     "rating": "recommended",
+     "opens": [
+      "32x",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "32x"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:picodrive",
+     "rating": "core",
+     "opens": [
+      "32x",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "sega-cd-32x",
+   "name": "Sega CD 32X",
+   "wiki": "Sega Genesis emulators",
+   "launchbox": [
+    "Sega CD 32X"
+   ],
+   "emulators": [
+    {
+     "id": "picodrive",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso",
+      "chd"
+     ],
+     "archives": [],
+     "notes": "Needs the Sega CD BIOS."
+    },
+    {
+     "id": "retroarch:picodrive",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "iso",
+      "chd"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "pico",
+   "name": "Sega Pico",
+   "wiki": null,
+   "launchbox": [
+    "Sega Pico"
+   ],
+   "emulators": [
+    {
+     "id": "picodrive",
+     "rating": "added",
+     "opens": [
+      "md",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:picodrive",
+     "rating": "core",
+     "opens": [
+      "md",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "saturn",
+   "name": "Saturn",
+   "wiki": "Sega Saturn emulators",
+   "launchbox": [
+    "Sega Saturn"
+   ],
+   "emulators": [
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "toc",
+      "ccd",
+      "m3u"
+     ],
+     "archives": [],
+     "notes": "Needs the Saturn BIOS. Standalone Mednafen reads no CHD."
+    },
+    {
+     "id": "ymir",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "chd",
+      "iso",
+      "ccd",
+      "mds"
+     ],
+     "archives": [],
+     "notes": "Needs the Saturn BIOS."
+    },
+    {
+     "id": "kronos",
+     "rating": "semi",
+     "opens": [
+      "cue",
+      "chd",
+      "iso",
+      "ccd",
+      "mds"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:mednafen_saturn",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "toc",
+      "ccd",
+      "chd",
+      "m3u"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:yabasanshiro",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "chd",
+      "iso",
+      "ccd",
+      "mds"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "dreamcast",
+   "name": "Dreamcast",
+   "wiki": "Dreamcast emulators",
+   "launchbox": [
+    "Sega Dreamcast"
+   ],
+   "emulators": [
+    {
+     "id": "flycast",
+     "rating": "recommended",
+     "opens": [
+      "chd",
+      "gdi",
+      "cdi",
+      "cue"
+     ],
+     "archives": []
+    },
+    {
+     "id": "redream",
+     "rating": "recommended",
+     "opens": [
+      "chd",
+      "gdi",
+      "cdi",
+      "cue"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:flycast",
+     "rating": "core",
+     "opens": [
+      "chd",
+      "gdi",
+      "cdi",
+      "cue",
+      "m3u"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "vmu",
+   "name": "Dreamcast VMU",
+   "wiki": "VMU emulators",
+   "launchbox": [
+    "Sega Dreamcast VMU"
+   ],
+   "emulators": [
+    {
+     "id": "dreampotato",
+     "rating": "recommended",
+     "opens": [
+      "vms",
+      "dci",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:vemulator",
+     "rating": "core",
+     "opens": [
+      "vms",
+      "dci",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "psx",
+   "name": "PlayStation",
+   "wiki": "PlayStation emulators",
+   "launchbox": [
+    "Sony Playstation"
+   ],
+   "emulators": [
+    {
+     "id": "duckstation",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "bin",
+      "chd",
+      "iso",
+      "img",
+      "ecm",
+      "mds",
+      "pbp",
+      "m3u",
+      "exe"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "toc",
+      "ccd",
+      "m3u",
+      "exe"
+     ],
+     "archives": [],
+     "notes": "Standalone Mednafen reads no CHD."
+    },
+    {
+     "id": "retroarch:mednafen_psx_hw",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "toc",
+      "ccd",
+      "chd",
+      "m3u",
+      "pbp",
+      "exe"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:swanstation",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "bin",
+      "chd",
+      "iso",
+      "img",
+      "ecm",
+      "mds",
+      "pbp",
+      "m3u",
+      "exe"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:pcsx_rearmed",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "bin",
+      "chd",
+      "iso",
+      "img",
+      "pbp",
+      "m3u",
+      "exe"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "ps2",
+   "name": "PlayStation 2",
+   "wiki": "PlayStation 2 emulators",
+   "launchbox": [
+    "Sony Playstation 2"
+   ],
+   "emulators": [
+    {
+     "id": "pcsx2",
+     "rating": "recommended",
+     "opens": [
+      "iso",
+      "bin",
+      "chd",
+      "cso",
+      "zso",
+      "gz",
+      "elf",
+      "mdf",
+      "img"
+     ],
+     "archives": []
+    },
+    {
+     "id": "nethersx2",
+     "rating": "recommended",
+     "opens": [
+      "iso",
+      "bin",
+      "chd",
+      "cso",
+      "gz",
+      "img"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:lrps2",
+     "rating": "core",
+     "opens": [
+      "iso",
+      "bin",
+      "chd",
+      "cso",
+      "zso",
+      "gz",
+      "elf",
+      "mdf",
+      "img"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "ps3",
+   "name": "PlayStation 3",
+   "wiki": "PlayStation 3 emulators",
+   "launchbox": [
+    "Sony Playstation 3"
+   ],
+   "emulators": [
+    {
+     "id": "rpcs3",
+     "rating": "recommended",
+     "opens": [
+      "folder",
+      "iso"
+     ],
+     "archives": [],
+     "notes": "Games as a folder (PS3_GAME) or a decrypted ISO; Redump ISOs are encrypted and need their disc key."
+    }
+   ]
+  },
+  {
+   "key": "ps4",
+   "name": "PlayStation 4",
+   "wiki": "PlayStation 4 emulators",
+   "launchbox": [
+    "Sony Playstation 4"
+   ],
+   "emulators": [
+    {
+     "id": "shadps4",
+     "rating": "semi",
+     "opens": [
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Games as an extracted folder."
+    }
+   ]
+  },
+  {
+   "key": "ps5",
+   "name": "PlayStation 5",
+   "wiki": "PlayStation 5 emulators",
+   "launchbox": [
+    "Sony Playstation 5"
+   ],
+   "emulators": []
+  },
+  {
+   "key": "psp",
+   "name": "PlayStation Portable",
+   "wiki": "PlayStation Portable emulators",
+   "launchbox": [
+    "Sony PSP",
+    "Sony PSP Minis"
+   ],
+   "emulators": [
+    {
+     "id": "ppsspp",
+     "rating": "recommended",
+     "opens": [
+      "iso",
+      "cso",
+      "chd",
+      "pbp",
+      "elf",
+      "prx"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:ppsspp",
+     "rating": "core",
+     "opens": [
+      "iso",
+      "cso",
+      "chd",
+      "pbp",
+      "elf",
+      "prx"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "vita",
+   "name": "PlayStation Vita",
+   "wiki": "PlayStation Vita emulators",
+   "launchbox": [
+    "Sony Playstation Vita"
+   ],
+   "emulators": [
+    {
+     "id": "vita3k",
+     "rating": "recommended",
+     "opens": [
+      "vpk",
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Games are installed into Vita3K (from .vpk/.zip/.pkg); a loadout copies them for installing."
+    }
+   ]
+  },
+  {
+   "key": "pocketstation",
+   "name": "PocketStation",
+   "wiki": "PocketStation",
+   "launchbox": [
+    "Sony PocketStation"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "pokketstation",
+     "rating": "recommended",
+     "opens": [
+      "bin",
+      "gme",
+      "mcd"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "xbox",
+   "name": "Xbox",
+   "wiki": "Xbox emulators",
+   "launchbox": [
+    "Microsoft Xbox"
+   ],
+   "emulators": [
+    {
+     "id": "xemu",
+     "rating": "recommended",
+     "opens": [
+      "iso"
+     ],
+     "archives": [],
+     "notes": "Reads XISO images: a Redump ISO has to be converted (extract-xiso) first."
+    }
+   ]
+  },
+  {
+   "key": "xbox360",
+   "name": "Xbox 360",
+   "wiki": "Xbox 360 emulators",
+   "launchbox": [
+    "Microsoft Xbox 360"
+   ],
+   "emulators": [
+    {
+     "id": "xenia",
+     "rating": "semi",
+     "opens": [
+      "iso",
+      "xex",
+      "zar",
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Disc images (.iso), or XBLA/GoD containers as folders."
+    }
+   ]
+  },
+  {
+   "key": "xbox-one",
+   "name": "Xbox One / Series X|S",
+   "wiki": "Xbox One emulators",
+   "launchbox": [
+    "Microsoft Xbox One",
+    "Microsoft Xbox Series X/S"
+   ],
+   "emulators": []
+  },
+  {
+   "key": "pc-engine",
+   "name": "PC Engine / TurboGrafx-16",
+   "wiki": "PC Engine (TurboGrafx-16) emulators",
+   "launchbox": [
+    "NEC TurboGrafx-16"
+   ],
+   "emulators": [
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "pce"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "pce"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mesen",
+     "rating": "recommended",
+     "opens": [
+      "pce"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "geargrafx",
+     "rating": "semi",
+     "opens": [
+      "pce"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:mednafen_pce",
+     "rating": "core",
+     "opens": [
+      "pce"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pc-engine-cd",
+   "name": "PC Engine CD / TurboGrafx-CD",
+   "wiki": "PC Engine (TurboGrafx-16) emulators",
+   "launchbox": [
+    "NEC TurboGrafx-CD"
+   ],
+   "emulators": [
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "toc",
+      "ccd",
+      "m3u"
+     ],
+     "archives": [],
+     "notes": "Needs the System Card BIOS. Standalone Mednafen reads no CHD."
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "chd"
+     ],
+     "archives": [],
+     "notes": "Needs the System Card BIOS."
+    },
+    {
+     "id": "geargrafx",
+     "rating": "semi",
+     "opens": [
+      "cue",
+      "chd"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:mednafen_pce",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "toc",
+      "ccd",
+      "chd",
+      "m3u"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "supergrafx",
+   "name": "PC Engine SuperGrafx",
+   "wiki": "PC Engine SuperGrafx",
+   "launchbox": [
+    "PC Engine SuperGrafx"
+   ],
+   "emulators": [
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "sgx",
+      "pce"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mednafen",
+     "rating": "added",
+     "opens": [
+      "sgx",
+      "pce"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:mednafen_supergrafx",
+     "rating": "core",
+     "opens": [
+      "sgx",
+      "pce"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pc-fx",
+   "name": "PC-FX",
+   "wiki": "PC-FX emulators",
+   "launchbox": [
+    "NEC PC-FX"
+   ],
+   "emulators": [
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "toc",
+      "ccd",
+      "m3u"
+     ],
+     "archives": [],
+     "notes": "Needs the PC-FX BIOS. Standalone Mednafen reads no CHD."
+    },
+    {
+     "id": "retroarch:mednafen_pcfx",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "toc",
+      "ccd",
+      "chd",
+      "m3u"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "pc-88",
+   "name": "PC-8801",
+   "wiki": "PC-8800 series emulators",
+   "launchbox": [
+    "NEC PC-8801"
+   ],
+   "emulators": [
+    {
+     "id": "m88",
+     "rating": "recommended",
+     "opens": [
+      "d88",
+      "t88",
+      "cmt"
+     ],
+     "archives": []
+    },
+    {
+     "id": "xm8",
+     "rating": "recommended",
+     "opens": [
+      "d88",
+      "t88",
+      "cmt"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:quasi88",
+     "rating": "core",
+     "opens": [
+      "d88",
+      "u88",
+      "m3u",
+      "t88",
+      "cmt"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "pc-98",
+   "name": "PC-9801",
+   "wiki": "PC-98 emulators",
+   "launchbox": [
+    "NEC PC-9801"
+   ],
+   "emulators": [
+    {
+     "id": "neko-project-ii",
+     "rating": "recommended",
+     "opens": [
+      "d88",
+      "d98",
+      "fdi",
+      "hdi",
+      "nhd",
+      "hdd",
+      "fdd",
+      "xdf",
+      "dup",
+      "2hd",
+      "tfd",
+      "nfd",
+      "hdm",
+      "cue",
+      "iso",
+      "ccd",
+      "m3u"
+     ],
+     "archives": []
+    },
+    {
+     "id": "dosbox-x",
+     "rating": "semi",
+     "opens": [
+      "hdi",
+      "fdi",
+      "d88",
+      "nfd",
+      "iso",
+      "cue"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:np2kai",
+     "rating": "core",
+     "opens": [
+      "d88",
+      "d98",
+      "fdi",
+      "hdi",
+      "nhd",
+      "hdd",
+      "fdd",
+      "xdf",
+      "dup",
+      "2hd",
+      "tfd",
+      "nfd",
+      "hdm",
+      "cue",
+      "iso",
+      "ccd",
+      "m3u"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "atari2600",
+   "name": "Atari 2600",
+   "wiki": "Atari 2600",
+   "launchbox": [
+    "Atari 2600"
+   ],
+   "emulators": [
+    {
+     "id": "stella",
+     "rating": "recommended",
+     "opens": [
+      "a26",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:stella",
+     "rating": "core",
+     "opens": [
+      "a26",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "atari5200",
+   "name": "Atari 5200",
+   "wiki": "Atari 5200",
+   "launchbox": [
+    "Atari 5200"
+   ],
+   "emulators": [
+    {
+     "id": "altirra",
+     "rating": "recommended",
+     "opens": [
+      "a52",
+      "car",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "atari800",
+     "rating": "recommended",
+     "opens": [
+      "a52",
+      "car",
+      "bin"
+     ],
+     "archives": [],
+     "notes": "Needs the 5200 BIOS."
+    },
+    {
+     "id": "retroarch:atari800",
+     "rating": "core",
+     "opens": [
+      "a52",
+      "car",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "atari7800",
+   "name": "Atari 7800",
+   "wiki": "Atari 7800",
+   "launchbox": [
+    "Atari 7800"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "a7800",
+     "rating": "recommended",
+     "opens": [
+      "a78",
+      "bin"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "prosystem",
+     "rating": "recommended",
+     "opens": [
+      "a78",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:prosystem",
+     "rating": "core",
+     "opens": [
+      "a78",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "atari8bit",
+   "name": "Atari 8-bit (400/800/XL/XE)",
+   "wiki": "Atari 8-bit emulators",
+   "launchbox": [
+    "Atari 800",
+    "Atari XEGS"
+   ],
+   "emulators": [
+    {
+     "id": "altirra",
+     "rating": "recommended",
+     "opens": [
+      "atr",
+      "xex",
+      "car",
+      "bin",
+      "rom",
+      "cas",
+      "xfd",
+      "atx"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "atari800",
+     "rating": "recommended",
+     "opens": [
+      "atr",
+      "xex",
+      "car",
+      "bin",
+      "rom",
+      "cas",
+      "xfd"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:atari800",
+     "rating": "core",
+     "opens": [
+      "atr",
+      "xex",
+      "car",
+      "bin",
+      "rom",
+      "cas",
+      "xfd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "jaguar",
+   "name": "Atari Jaguar",
+   "wiki": "Atari Jaguar",
+   "launchbox": [
+    "Atari Jaguar"
+   ],
+   "emulators": [
+    {
+     "id": "bigpemu",
+     "rating": "recommended",
+     "opens": [
+      "j64",
+      "jag",
+      "rom",
+      "abs",
+      "cof",
+      "bin",
+      "prg"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:virtualjaguar",
+     "rating": "core",
+     "opens": [
+      "j64",
+      "jag",
+      "rom",
+      "abs",
+      "cof",
+      "bin",
+      "prg"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "jaguar-cd",
+   "name": "Atari Jaguar CD",
+   "wiki": "Atari Jaguar",
+   "launchbox": [
+    "Atari Jaguar CD"
+   ],
+   "emulators": [
+    {
+     "id": "bigpemu",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "cdi"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "lynx",
+   "name": "Atari Lynx",
+   "wiki": "Atari Lynx emulators",
+   "launchbox": [
+    "Atari Lynx"
+   ],
+   "emulators": [
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "lnx",
+      "o"
+     ],
+     "archives": [
+      "zip"
+     ],
+     "notes": "Needs the Lynx boot ROM."
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "gearlynx",
+     "rating": "recommended",
+     "opens": [
+      "lnx",
+      "lyx",
+      "o"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:mednafen_lynx",
+     "rating": "core",
+     "opens": [
+      "lnx",
+      "o"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:handy",
+     "rating": "core",
+     "opens": [
+      "lnx",
+      "o"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "atari-st",
+   "name": "Atari ST",
+   "wiki": "Atari ST emulators",
+   "launchbox": [
+    "Atari ST"
+   ],
+   "emulators": [
+    {
+     "id": "hatari",
+     "rating": "recommended",
+     "opens": [
+      "st",
+      "msa",
+      "stx",
+      "dim",
+      "ipf",
+      "ctr"
+     ],
+     "archives": [
+      "zip"
+     ],
+     "notes": "Needs a TOS ROM."
+    },
+    {
+     "id": "retroarch:hatari",
+     "rating": "core",
+     "opens": [
+      "st",
+      "msa",
+      "stx",
+      "dim",
+      "ipf",
+      "m3u"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "3do",
+   "name": "3DO",
+   "wiki": "3DO emulators",
+   "launchbox": [
+    "3DO Interactive Multiplayer"
+   ],
+   "emulators": [
+    {
+     "id": "opera",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "bin",
+      "iso",
+      "chd"
+     ],
+     "archives": [],
+     "notes": "Needs the 3DO BIOS."
+    },
+    {
+     "id": "retroarch:opera",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "bin",
+      "iso",
+      "chd",
+      "cue"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "cdi",
+   "name": "Philips CD-i",
+   "wiki": "CD-i",
+   "launchbox": [
+    "Philips CD-i"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "chd"
+     ],
+     "archives": [],
+     "notes": "MAME software list (cdi) as CHD."
+    },
+    {
+     "id": "retroarch:same_cdi",
+     "rating": "core",
+     "opens": [
+      "chd",
+      "iso",
+      "cue"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "intellivision",
+   "name": "Intellivision",
+   "wiki": "Intellivision emulators",
+   "launchbox": [
+    "Mattel Intellivision"
+   ],
+   "emulators": [
+    {
+     "id": "jzintv",
+     "rating": "recommended",
+     "opens": [
+      "int",
+      "bin",
+      "rom",
+      "itv"
+     ],
+     "archives": [],
+     "notes": "Needs the Intellivision EXEC and GROM."
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:freeintv",
+     "rating": "core",
+     "opens": [
+      "int",
+      "bin",
+      "rom"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "colecovision",
+   "name": "ColecoVision",
+   "wiki": "ColecoVision emulators",
+   "launchbox": [
+    "ColecoVision",
+    "Coleco ADAM"
+   ],
+   "emulators": [
+    {
+     "id": "finalburn-neo",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "col",
+      "rom"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:gearcoleco",
+     "rating": "core",
+     "opens": [
+      "col",
+      "cv",
+      "bin",
+      "rom"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:jollycv",
+     "rating": "core",
+     "opens": [
+      "col",
+      "rom",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "odyssey2",
+   "name": "Odyssey² / Videopac",
+   "wiki": "Magnavox Odyssey² emulators",
+   "launchbox": [
+    "Magnavox Odyssey 2",
+    "Philips Videopac+"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "o2em",
+     "rating": "recommended",
+     "opens": [
+      "bin"
+     ],
+     "archives": [],
+     "notes": "Needs the Odyssey² BIOS."
+    }
+   ]
+  },
+  {
+   "key": "odyssey",
+   "name": "Magnavox Odyssey",
+   "wiki": "Magnavox Odyssey emulators",
+   "launchbox": [
+    "Magnavox Odyssey"
+   ],
+   "emulators": []
+  },
+  {
+   "key": "channel-f",
+   "name": "Fairchild Channel F",
+   "wiki": "Fairchild Channel F emulators",
+   "launchbox": [
+    "Fairchild Channel F"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "freechaf",
+     "rating": "recommended",
+     "opens": [
+      "bin",
+      "chf"
+     ],
+     "archives": [],
+     "notes": "Needs the Channel F BIOS."
+    },
+    {
+     "id": "retroarch:freechaf",
+     "rating": "core",
+     "opens": [
+      "bin",
+      "chf"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vectrex",
+   "name": "Vectrex",
+   "wiki": "Vectrex emulators",
+   "launchbox": [
+    "GCE Vectrex"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "vecx",
+     "rating": "recommended",
+     "opens": [
+      "vec",
+      "gam",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:vecx",
+     "rating": "core",
+     "opens": [
+      "vec",
+      "gam",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "arcadia2001",
+   "name": "Emerson Arcadia 2001",
+   "wiki": "Emerson Arcadia 2001 emulators",
+   "launchbox": [
+    "Emerson Arcadia 2001"
+   ],
+   "emulators": [
+    {
+     "id": "winarcadia",
+     "rating": "recommended",
+     "opens": [
+      "bin",
+      "tvc"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "supervision8000",
+   "name": "Bandai Super Vision 8000",
+   "wiki": "Super Vision 8000",
+   "launchbox": [
+    "Bandai Super Vision 8000"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pv1000",
+   "name": "Casio PV-1000",
+   "wiki": "Casio PV-1000 emulators",
+   "launchbox": [
+    "Casio PV-1000"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "loopy",
+   "name": "Casio Loopy",
+   "wiki": "Casio Loopy emulators",
+   "launchbox": [
+    "Casio Loopy"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "super-acan",
+   "name": "Super A'Can",
+   "wiki": "Super A'Can",
+   "launchbox": [
+    "Funtech Super Acan"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hyperscan",
+   "name": "Mattel HyperScan",
+   "wiki": "HyperScan",
+   "launchbox": [
+    "Mattel HyperScan"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "creativision",
+   "name": "VTech CreatiVision",
+   "wiki": "CreatiVision",
+   "launchbox": [
+    "VTech CreatiVision"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "socrates",
+   "name": "VTech Socrates",
+   "wiki": "Socrates",
+   "launchbox": [
+    "VTech Socrates"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vsmile",
+   "name": "VTech V.Smile",
+   "wiki": "V.Smile",
+   "launchbox": [
+    "VTech V.Smile"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "nuon",
+   "name": "Nuon",
+   "wiki": "Nuon emulators",
+   "launchbox": [
+    "Nuon"
+   ],
+   "emulators": [
+    {
+     "id": "nuance",
+     "rating": "semi",
+     "opens": [
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Games as extracted disc folders."
+    }
+   ]
+  },
+  {
+   "key": "laseractive",
+   "name": "Pioneer LaserActive",
+   "wiki": "LaserActive",
+   "launchbox": [
+    "Pioneer LaserActive"
+   ],
+   "emulators": [
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "chd"
+     ],
+     "archives": []
+    },
+    {
+     "id": "geargrafx",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "chd"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "game-wave",
+   "name": "Game Wave",
+   "wiki": null,
+   "launchbox": [
+    "Game Wave Family Entertainment System",
+    "GameWave"
+   ],
+   "emulators": []
+  },
+  {
+   "key": "ouya",
+   "name": "Ouya / Android",
+   "wiki": "Android emulators",
+   "launchbox": [
+    "Ouya",
+    "Android"
+   ],
+   "emulators": []
+  },
+  {
+   "key": "ios",
+   "name": "iOS",
+   "wiki": "IOS emulators",
+   "launchbox": [
+    "Apple iOS"
+   ],
+   "emulators": [
+    {
+     "id": "touchhle",
+     "rating": "semi",
+     "opens": [
+      "ipa",
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Early iPhone OS games only."
+    }
+   ]
+  },
+  {
+   "key": "neo-geo",
+   "name": "Neo Geo (AES/MVS)",
+   "wiki": "Neo Geo and variants",
+   "launchbox": [
+    "SNK Neo Geo AES",
+    "SNK Neo Geo MVS"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "finalburn-neo",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "geolith",
+     "rating": "recommended",
+     "opens": [
+      "neo"
+     ],
+     "archives": [],
+     "notes": "Reads .neo files: MAME/FBNeo zips have to be converted."
+    },
+    {
+     "id": "retroarch:fbneo",
+     "rating": "core",
+     "opens": [
+      "zip",
+      "7z"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "neo-geo-cd",
+   "name": "Neo Geo CD",
+   "wiki": "Neo Geo and variants",
+   "launchbox": [
+    "SNK Neo Geo CD"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "chd"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:neocd",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "chd"
+     ],
+     "archives": [],
+     "notes": "Needs the Neo Geo CD BIOS."
+    }
+   ]
+  },
+  {
+   "key": "ngp",
+   "name": "Neo Geo Pocket / Color",
+   "wiki": "Neo Geo Pocket",
+   "launchbox": [
+    "SNK Neo Geo Pocket",
+    "SNK Neo Geo Pocket Color"
+   ],
+   "emulators": [
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "ngp",
+      "ngc"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "ngp",
+      "ngc",
+      "ngpc",
+      "npc"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "finalburn-neo",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:mednafen_ngp",
+     "rating": "core",
+     "opens": [
+      "ngp",
+      "ngc",
+      "ngpc",
+      "npc"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "arcade",
+   "name": "Arcade",
+   "wiki": "Arcade emulators",
+   "launchbox": [
+    "Arcade",
+    "Namco System 22",
+    "Sega Model 1",
+    "Sega System 16",
+    "Sega System 32",
+    "Sega Hikaru",
+    "Sega ST-V",
+    "Sega Triforce",
+    "ZiNc"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "Non-merged or split sets matching the MAME version."
+    },
+    {
+     "id": "finalburn-neo",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:mame",
+     "rating": "core",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:fbneo",
+     "rating": "core",
+     "opens": [
+      "zip",
+      "7z"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "model2",
+   "name": "Sega Model 2",
+   "wiki": "Arcade emulators",
+   "launchbox": [
+    "Sega Model 2"
+   ],
+   "emulators": [
+    {
+     "id": "model2",
+     "rating": "semi",
+     "opens": [
+      "zip"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "model3",
+   "name": "Sega Model 3",
+   "wiki": "Arcade emulators",
+   "launchbox": [
+    "Sega Model 3"
+   ],
+   "emulators": [
+    {
+     "id": "supermodel",
+     "rating": "recommended",
+     "opens": [
+      "zip"
+     ],
+     "archives": [
+      "zip"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "naomi",
+   "name": "Sega Naomi / Naomi 2 / Atomiswave",
+   "wiki": "Arcade emulators",
+   "launchbox": [
+    "Sega Naomi",
+    "Sega Naomi 2",
+    "Sammy Atomiswave"
+   ],
+   "emulators": [
+    {
+     "id": "flycast",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd",
+      "lst",
+      "dat",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "MAME-style sets; GD-ROM games also need their CHD."
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:flycast",
+     "rating": "core",
+     "opens": [
+      "zip",
+      "7z",
+      "chd",
+      "lst",
+      "dat",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "teknoparrot",
+   "name": "TeknoParrot (PC arcade)",
+   "wiki": "Arcade emulators",
+   "launchbox": [
+    "Taito Type X",
+    "TeknoParrot"
+   ],
+   "emulators": [
+    {
+     "id": "teknoparrot",
+     "rating": "recommended",
+     "opens": [
+      "folder"
+     ],
+     "archives": [],
+     "notes": "PC arcade games as folders."
+    }
+   ]
+  },
+  {
+   "key": "laserdisc",
+   "name": "Arcade LaserDisc",
+   "wiki": null,
+   "launchbox": [
+    "WoW Action Max"
+   ],
+   "emulators": [
+    {
+     "id": "hypseus",
+     "rating": "added",
+     "opens": [
+      "folder"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "pinball",
+   "name": "Pinball",
+   "wiki": "Pinball",
+   "launchbox": [
+    "Pinball"
+   ],
+   "emulators": [
+    {
+     "id": "visual-pinball",
+     "rating": "added",
+     "opens": [
+      "vpx",
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Tables (.vpx) with their ROMs and media."
+    }
+   ]
+  },
+  {
+   "key": "wonderswan",
+   "name": "WonderSwan / Color",
+   "wiki": "WonderSwan emulators",
+   "launchbox": [
+    "WonderSwan",
+    "WonderSwan Color"
+   ],
+   "emulators": [
+    {
+     "id": "mesen",
+     "rating": "recommended",
+     "opens": [
+      "ws",
+      "wsc",
+      "pc2"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "ares",
+     "rating": "recommended",
+     "opens": [
+      "ws",
+      "wsc"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mednafen",
+     "rating": "recommended",
+     "opens": [
+      "ws",
+      "wsc",
+      "pc2"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:mednafen_wswan",
+     "rating": "core",
+     "opens": [
+      "ws",
+      "wsc",
+      "pc2"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "supervision",
+   "name": "Watara Supervision",
+   "wiki": "Supervision",
+   "launchbox": [
+    "Watara Supervision"
+   ],
+   "emulators": [
+    {
+     "id": "potator",
+     "rating": "recommended",
+     "opens": [
+      "sv",
+      "bin"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:potator",
+     "rating": "core",
+     "opens": [
+      "sv",
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "game-com",
+   "name": "Tiger Game.com",
+   "wiki": "Game.com",
+   "launchbox": [
+    "Tiger Game.com"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "Needs the Game.com BIOS."
+    }
+   ]
+  },
+  {
+   "key": "game-master",
+   "name": "Hartung Game Master",
+   "wiki": "Game Master",
+   "launchbox": [
+    "Hartung Game Master"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mega-duck",
+   "name": "Mega Duck",
+   "wiki": "Mega Duck",
+   "launchbox": [
+    "Mega Duck"
+   ],
+   "emulators": [
+    {
+     "id": "retroarch:sameduck",
+     "rating": "recommended",
+     "opens": [
+      "bin"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ngage",
+   "name": "Nokia N-Gage",
+   "wiki": "Symbian emulators",
+   "launchbox": [
+    "Nokia N-Gage"
+   ],
+   "emulators": [
+    {
+     "id": "eka2l1",
+     "rating": "semi",
+     "opens": [
+      "n-gage",
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Games are installed into EKA2L1."
+    }
+   ]
+  },
+  {
+   "key": "arduboy",
+   "name": "Arduboy",
+   "wiki": "Arduboy",
+   "launchbox": [
+    "Arduboy"
+   ],
+   "emulators": [
+    {
+     "id": "ardens",
+     "rating": "recommended",
+     "opens": [
+      "hex",
+      "arduboy"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "retroarch:arduous",
+     "rating": "core",
+     "opens": [
+      "hex"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "gp32",
+   "name": "GamePark GP32",
+   "wiki": null,
+   "launchbox": [
+    "GamePark GP32"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "game-pocket",
+   "name": "Epoch Game Pocket Computer",
+   "wiki": null,
+   "launchbox": [
+    "Epoch Game Pocket Computer"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "zodiac",
+   "name": "Tapwave Zodiac",
+   "wiki": null,
+   "launchbox": [
+    "Tapwave Zodiac"
+   ],
+   "emulators": []
+  },
+  {
+   "key": "c64",
+   "name": "Commodore 64",
+   "wiki": "Commodore 64 emulators",
+   "launchbox": [
+    "Commodore 64",
+    "Commodore MAX Machine"
+   ],
+   "emulators": [
+    {
+     "id": "vice",
+     "rating": "recommended",
+     "opens": [
+      "d64",
+      "d71",
+      "d81",
+      "g64",
+      "t64",
+      "tap",
+      "prg",
+      "p00",
+      "crt"
+     ],
+     "archives": [
+      "zip",
+      "gz"
+     ]
+    },
+    {
+     "id": "retroarch:vice_x64sc",
+     "rating": "core",
+     "opens": [
+      "d64",
+      "d71",
+      "d81",
+      "g64",
+      "t64",
+      "tap",
+      "prg",
+      "p00",
+      "crt",
+      "m3u"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "c128",
+   "name": "Commodore 128",
+   "wiki": "Commodore 128",
+   "launchbox": [
+    "Commodore 128"
+   ],
+   "emulators": [
+    {
+     "id": "vice",
+     "rating": "recommended",
+     "opens": [
+      "d64",
+      "d71",
+      "d81",
+      "g64",
+      "t64",
+      "tap",
+      "prg",
+      "p00",
+      "crt"
+     ],
+     "archives": [
+      "zip",
+      "gz"
+     ]
+    },
+    {
+     "id": "retroarch:vice_x128",
+     "rating": "core",
+     "opens": [
+      "d64",
+      "d71",
+      "d81",
+      "g64",
+      "t64",
+      "tap",
+      "prg",
+      "p00",
+      "crt"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vic20",
+   "name": "Commodore VIC-20",
+   "wiki": "VIC-20",
+   "launchbox": [
+    "Commodore VIC-20"
+   ],
+   "emulators": [
+    {
+     "id": "vice",
+     "rating": "recommended",
+     "opens": [
+      "d64",
+      "tap",
+      "prg",
+      "crt",
+      "20",
+      "40",
+      "60",
+      "a0",
+      "b0"
+     ],
+     "archives": [
+      "zip",
+      "gz"
+     ]
+    },
+    {
+     "id": "retroarch:vice_xvic",
+     "rating": "core",
+     "opens": [
+      "d64",
+      "tap",
+      "prg",
+      "crt",
+      "20",
+      "40",
+      "60",
+      "a0",
+      "b0"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pet",
+   "name": "Commodore PET",
+   "wiki": "Commodore PET",
+   "launchbox": [
+    "Commodore PET"
+   ],
+   "emulators": [
+    {
+     "id": "vice",
+     "rating": "recommended",
+     "opens": [
+      "d64",
+      "d80",
+      "d82",
+      "tap",
+      "prg",
+      "p00"
+     ],
+     "archives": [
+      "zip",
+      "gz"
+     ]
+    },
+    {
+     "id": "retroarch:vice_xpet",
+     "rating": "core",
+     "opens": [
+      "d64",
+      "tap",
+      "prg"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "plus4",
+   "name": "Commodore Plus/4",
+   "wiki": null,
+   "launchbox": [
+    "Commodore Plus 4"
+   ],
+   "emulators": [
+    {
+     "id": "vice",
+     "rating": "added",
+     "opens": [
+      "d64",
+      "tap",
+      "prg",
+      "crt"
+     ],
+     "archives": [
+      "zip",
+      "gz"
+     ]
+    },
+    {
+     "id": "retroarch:vice_xplus4",
+     "rating": "core",
+     "opens": [
+      "d64",
+      "tap",
+      "prg",
+      "crt"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "amiga",
+   "name": "Amiga",
+   "wiki": "Amiga emulators",
+   "launchbox": [
+    "Commodore Amiga"
+   ],
+   "emulators": [
+    {
+     "id": "amiberry",
+     "rating": "recommended",
+     "opens": [
+      "adf",
+      "adz",
+      "dms",
+      "ipf",
+      "hdf",
+      "lha",
+      "zip",
+      "lha",
+      "uae"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "Needs a Kickstart ROM."
+    },
+    {
+     "id": "fs-uae",
+     "rating": "recommended",
+     "opens": [
+      "adf",
+      "adz",
+      "dms",
+      "ipf",
+      "hdf",
+      "lha",
+      "zip"
+     ],
+     "archives": [
+      "zip"
+     ],
+     "notes": "Needs a Kickstart ROM."
+    },
+    {
+     "id": "winuae",
+     "rating": "recommended",
+     "opens": [
+      "adf",
+      "adz",
+      "dms",
+      "ipf",
+      "hdf",
+      "lha",
+      "zip"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "Needs a Kickstart ROM."
+    },
+    {
+     "id": "retroarch:puae",
+     "rating": "core",
+     "opens": [
+      "adf",
+      "adz",
+      "dms",
+      "ipf",
+      "hdf",
+      "lha",
+      "zip",
+      "m3u",
+      "hdz",
+      "slave"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "cd32",
+   "name": "Amiga CD32",
+   "wiki": "Amiga emulators",
+   "launchbox": [
+    "Commodore Amiga CD32"
+   ],
+   "emulators": [
+    {
+     "id": "amiberry",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso",
+      "chd"
+     ],
+     "archives": [],
+     "notes": "Needs the CD32 Kickstart and extended ROM."
+    },
+    {
+     "id": "fs-uae",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso"
+     ],
+     "archives": []
+    },
+    {
+     "id": "winuae",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso",
+      "chd"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:puae",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "iso",
+      "chd",
+      "ccd",
+      "m3u"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "cdtv",
+   "name": "Commodore CDTV",
+   "wiki": "Amiga emulators",
+   "launchbox": [
+    "Commodore CDTV"
+   ],
+   "emulators": [
+    {
+     "id": "amiberry",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso",
+      "chd"
+     ],
+     "archives": [],
+     "notes": "Needs the CDTV extended ROM."
+    },
+    {
+     "id": "winuae",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso",
+      "chd"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:puae",
+     "rating": "core",
+     "opens": [
+      "cue",
+      "iso",
+      "chd",
+      "ccd",
+      "m3u"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "amstrad-cpc",
+   "name": "Amstrad CPC / GX4000",
+   "wiki": "Amstrad CPC",
+   "launchbox": [
+    "Amstrad CPC",
+    "Amstrad GX4000"
+   ],
+   "emulators": [
+    {
+     "id": "caprice32",
+     "rating": "recommended",
+     "opens": [
+      "dsk",
+      "sna",
+      "cdt",
+      "voc",
+      "cpr"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:cap32",
+     "rating": "core",
+     "opens": [
+      "dsk",
+      "sna",
+      "cdt",
+      "voc",
+      "cpr",
+      "m3u"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "msx",
+   "name": "MSX / MSX2 / MSX2+",
+   "wiki": "MSX emulators",
+   "launchbox": [
+    "Microsoft MSX",
+    "Microsoft MSX2",
+    "Microsoft MSX2+",
+    "Spectravideo"
+   ],
+   "emulators": [
+    {
+     "id": "openmsx",
+     "rating": "recommended",
+     "opens": [
+      "rom",
+      "mx1",
+      "mx2",
+      "dsk",
+      "cas",
+      "ri"
+     ],
+     "archives": [
+      "zip",
+      "gz"
+     ],
+     "notes": "Needs C-BIOS or real MSX system ROMs."
+    },
+    {
+     "id": "bluemsx",
+     "rating": "recommended",
+     "opens": [
+      "rom",
+      "ri",
+      "mx1",
+      "mx2",
+      "col",
+      "dsk",
+      "cas",
+      "sg",
+      "sc"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:bluemsx",
+     "rating": "core",
+     "opens": [
+      "rom",
+      "ri",
+      "mx1",
+      "mx2",
+      "col",
+      "dsk",
+      "cas",
+      "sg",
+      "sc",
+      "m3u"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:fmsx",
+     "rating": "core",
+     "opens": [
+      "rom",
+      "mx1",
+      "mx2",
+      "dsk",
+      "fdi",
+      "cas",
+      "m3u"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "zx-spectrum",
+   "name": "ZX Spectrum",
+   "wiki": "ZX Spectrum emulators",
+   "launchbox": [
+    "Sinclair ZX Spectrum"
+   ],
+   "emulators": [
+    {
+     "id": "fuse",
+     "rating": "recommended",
+     "opens": [
+      "tzx",
+      "tap",
+      "z80",
+      "sna",
+      "szx",
+      "dsk",
+      "rzx",
+      "scl",
+      "trd"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "zesarux",
+     "rating": "recommended",
+     "opens": [
+      "tzx",
+      "tap",
+      "z80",
+      "sna",
+      "dsk",
+      "rzx",
+      "scl",
+      "trd"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:fuse",
+     "rating": "core",
+     "opens": [
+      "tzx",
+      "tap",
+      "z80",
+      "sna",
+      "szx",
+      "dsk",
+      "rzx",
+      "scl",
+      "trd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "zx81",
+   "name": "ZX81",
+   "wiki": "ZX81",
+   "launchbox": [
+    "Sinclair ZX-81"
+   ],
+   "emulators": [
+    {
+     "id": "eightyone",
+     "rating": "recommended",
+     "opens": [
+      "p",
+      "81",
+      "tzx",
+      "t81"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "zesarux",
+     "rating": "recommended",
+     "opens": [
+      "p",
+      "81",
+      "o"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:81",
+     "rating": "core",
+     "opens": [
+      "p",
+      "tzx",
+      "t81"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "apple2",
+   "name": "Apple II",
+   "wiki": "Apple II",
+   "launchbox": [
+    "Apple II"
+   ],
+   "emulators": [
+    {
+     "id": "applewin",
+     "rating": "recommended",
+     "opens": [
+      "dsk",
+      "do",
+      "po",
+      "nib",
+      "woz",
+      "2mg",
+      "hdv"
+     ],
+     "archives": [
+      "zip",
+      "gz"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "apple2gs",
+   "name": "Apple IIGS",
+   "wiki": "Apple IIGS",
+   "launchbox": [
+    "Apple IIGS"
+   ],
+   "emulators": [
+    {
+     "id": "kegs",
+     "rating": "recommended",
+     "opens": [
+      "2mg",
+      "po",
+      "dsk",
+      "hdv",
+      "woz"
+     ],
+     "archives": [],
+     "notes": "Needs the IIGS ROM."
+    }
+   ]
+  },
+  {
+   "key": "mac",
+   "name": "Classic Mac OS",
+   "wiki": "Classic Mac OS emulators",
+   "launchbox": [
+    "Apple Mac OS"
+   ],
+   "emulators": [
+    {
+     "id": "snow",
+     "rating": "recommended",
+     "opens": [
+      "dsk",
+      "img",
+      "image",
+      "moof"
+     ],
+     "archives": []
+    },
+    {
+     "id": "basilisk",
+     "rating": "semi",
+     "opens": [
+      "dsk",
+      "img",
+      "hfv",
+      "iso",
+      "toast"
+     ],
+     "archives": [],
+     "notes": "Needs a Mac ROM."
+    },
+    {
+     "id": "retroarch:minivmac",
+     "rating": "core",
+     "opens": [
+      "dsk",
+      "img"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "pc-dos",
+   "name": "MS-DOS / Windows 3.x",
+   "wiki": "Intel-based PC emulator comparisons",
+   "launchbox": [
+    "MS-DOS",
+    "Windows 3.X"
+   ],
+   "emulators": [
+    {
+     "id": "dosbox-staging",
+     "rating": "recommended",
+     "opens": [
+      "folder",
+      "conf",
+      "exe",
+      "bat",
+      "com"
+     ],
+     "archives": [],
+     "notes": "Games as folders."
+    },
+    {
+     "id": "dosbox-x",
+     "rating": "recommended",
+     "opens": [
+      "folder",
+      "conf",
+      "exe",
+      "img",
+      "iso"
+     ],
+     "archives": []
+    },
+    {
+     "id": "86box",
+     "rating": "recommended",
+     "opens": [
+      "img",
+      "vhd",
+      "iso"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:dosbox_pure",
+     "rating": "core",
+     "opens": [
+      "zip",
+      "dosz",
+      "exe",
+      "com",
+      "bat",
+      "iso",
+      "cue",
+      "img",
+      "ima",
+      "vhd",
+      "m3u",
+      "conf"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "Runs zipped games directly."
+    }
+   ]
+  },
+  {
+   "key": "bbc-micro",
+   "name": "BBC Micro / Acorn Electron / Atom",
+   "wiki": "BBC Micro emulators",
+   "launchbox": [
+    "BBC Microcomputer System",
+    "Acorn Electron",
+    "Acorn Atom"
+   ],
+   "emulators": [
+    {
+     "id": "b-em",
+     "rating": "recommended",
+     "opens": [
+      "ssd",
+      "dsd",
+      "adf",
+      "uef",
+      "csw"
+     ],
+     "archives": []
+    },
+    {
+     "id": "beebem",
+     "rating": "recommended",
+     "opens": [
+      "ssd",
+      "dsd",
+      "adf",
+      "uef",
+      "csw"
+     ],
+     "archives": [
+      "zip"
+     ]
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "archimedes",
+   "name": "Acorn Archimedes",
+   "wiki": "RISC OS emulators",
+   "launchbox": [
+    "Acorn Archimedes"
+   ],
+   "emulators": [
+    {
+     "id": "arculator",
+     "rating": "recommended",
+     "opens": [
+      "adf",
+      "hdf",
+      "apd"
+     ],
+     "archives": [],
+     "notes": "Needs RISC OS ROMs."
+    },
+    {
+     "id": "rpcemu",
+     "rating": "recommended",
+     "opens": [
+      "adf",
+      "hdf"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "fm7",
+   "name": "Fujitsu FM-7",
+   "wiki": "Fujitsu FM-7 emulators",
+   "launchbox": [
+    "Fujitsu FM-7"
+   ],
+   "emulators": [
+    {
+     "id": "xm7",
+     "rating": "recommended",
+     "opens": [
+      "d77",
+      "d88",
+      "t77",
+      "2d"
+     ],
+     "archives": [],
+     "notes": "Needs the FM-7 ROMs."
+    },
+    {
+     "id": "mame",
+     "rating": "semi",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "fm-towns",
+   "name": "FM Towns / Marty",
+   "wiki": "FM Towns emulators",
+   "launchbox": [
+    "Fujitsu FM Towns Marty"
+   ],
+   "emulators": [
+    {
+     "id": "tsugaru",
+     "rating": "recommended",
+     "opens": [
+      "cue",
+      "iso",
+      "bin",
+      "d77",
+      "d88",
+      "hdm"
+     ],
+     "archives": [],
+     "notes": "Needs the FM Towns ROMs."
+    }
+   ]
+  },
+  {
+   "key": "x1",
+   "name": "Sharp X1",
+   "wiki": "Sharp X1",
+   "launchbox": [
+    "Sharp X1"
+   ],
+   "emulators": [
+    {
+     "id": "ex1",
+     "rating": "recommended",
+     "opens": [
+      "2d",
+      "d88",
+      "tap"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:x1",
+     "rating": "core",
+     "opens": [
+      "dx1",
+      "2d",
+      "2hd",
+      "tfd",
+      "d88",
+      "88d",
+      "hdm",
+      "xdf",
+      "dup",
+      "cmd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "x68000",
+   "name": "Sharp X68000",
+   "wiki": "X68000",
+   "launchbox": [
+    "Sharp X68000"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    },
+    {
+     "id": "retroarch:px68k",
+     "rating": "recommended",
+     "opens": [
+      "dim",
+      "img",
+      "d88",
+      "88d",
+      "hdm",
+      "dup",
+      "2hd",
+      "xdf",
+      "hdf",
+      "cmd",
+      "m3u"
+     ],
+     "archives": [],
+     "notes": "Needs the X68000 IPL ROMs."
+    },
+    {
+     "id": "xm6",
+     "rating": "semi",
+     "opens": [
+      "dim",
+      "xdf",
+      "hdf",
+      "d88"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "aquarius",
+   "name": "Mattel Aquarius",
+   "wiki": "Aquarius",
+   "launchbox": [
+    "Mattel Aquarius"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "recommended",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "trs80-coco",
+   "name": "TRS-80 Color Computer / Dragon",
+   "wiki": null,
+   "launchbox": [
+    "TRS-80 Color Computer",
+    "Dragon 32/64"
+   ],
+   "emulators": [
+    {
+     "id": "xroar",
+     "rating": "added",
+     "opens": [
+      "dsk",
+      "cas",
+      "wav",
+      "ccc",
+      "rom",
+      "vdk"
+     ],
+     "archives": [],
+     "notes": "Needs the machine's ROMs."
+    },
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "oric",
+   "name": "Oric",
+   "wiki": null,
+   "launchbox": [
+    "Oric Atmos"
+   ],
+   "emulators": [
+    {
+     "id": "oricutron",
+     "rating": "added",
+     "opens": [
+      "tap",
+      "dsk"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "sam-coupe",
+   "name": "SAM Coupé",
+   "wiki": null,
+   "launchbox": [
+    "SAM Coupé"
+   ],
+   "emulators": [
+    {
+     "id": "simcoupe",
+     "rating": "added",
+     "opens": [
+      "dsk",
+      "mgt",
+      "sad",
+      "sbt"
+     ],
+     "archives": [
+      "zip",
+      "gz"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ti99",
+   "name": "Texas Instruments TI-99/4A",
+   "wiki": null,
+   "launchbox": [
+    "Texas Instruments TI 99/4A"
+   ],
+   "emulators": [
+    {
+     "id": "classic99",
+     "rating": "added",
+     "opens": [
+      "bin",
+      "ctg",
+      "dsk"
+     ],
+     "archives": []
+    },
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd",
+      "rpk"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "thomson",
+   "name": "Thomson / Exelvision",
+   "wiki": null,
+   "launchbox": [
+    "Exelvision EXL 100"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "uzebox",
+   "name": "Uzebox",
+   "wiki": null,
+   "launchbox": [
+    "Uzebox"
+   ],
+   "emulators": [
+    {
+     "id": "uzem",
+     "rating": "added",
+     "opens": [
+      "uze"
+     ],
+     "archives": []
+    },
+    {
+     "id": "retroarch:uzem",
+     "rating": "core",
+     "opens": [
+      "uze"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "mame-computers",
+   "name": "Other computers and consoles (MAME)",
+   "wiki": null,
+   "launchbox": [
+    "APF Imagination Machine",
+    "Aamber Pegasus",
+    "Apogee BK-01",
+    "Bally Astrocade",
+    "Camputers Lynx",
+    "EACA EG2000 Colour Genie",
+    "Elektor TV Games Computer",
+    "Elektronika BK",
+    "Enterprise",
+    "Entex Adventure Vision",
+    "Epoch Super Cassette Vision",
+    "Exidy Sorcerer",
+    "Hector HRX",
+    "Interton VC 4000",
+    "Jupiter Ace",
+    "Matra and Hachette Alice",
+    "Memotech MTX512",
+    "Philips VG 5000",
+    "RCA Studio II",
+    "Sharp MZ-2500",
+    "Sord M5",
+    "Tandy TRS-80",
+    "Tomy Tutor",
+    "Vector-06C",
+    "XaviXPORT"
+   ],
+   "emulators": [
+    {
+     "id": "mame",
+     "rating": "added",
+     "opens": [
+      "zip",
+      "7z",
+      "chd"
+     ],
+     "archives": [
+      "zip",
+      "7z"
+     ],
+     "notes": "MAME software list sets for this machine."
+    }
+   ]
+  },
+  {
+   "key": "scummvm",
+   "name": "ScummVM",
+   "wiki": "Game engine recreations and source ports",
+   "launchbox": [
+    "ScummVM"
+   ],
+   "emulators": [
+    {
+     "id": "scummvm",
+     "rating": "recommended",
+     "opens": [
+      "folder",
+      "scummvm"
+     ],
+     "archives": [],
+     "notes": "Games as folders of their original data files."
+    },
+    {
+     "id": "retroarch:scummvm",
+     "rating": "core",
+     "opens": [
+      "scummvm"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "pico8",
+   "name": "PICO-8",
+   "wiki": "Fantasy system emulators",
+   "launchbox": [
+    "PICO-8"
+   ],
+   "emulators": [
+    {
+     "id": "pico-8",
+     "rating": "recommended",
+     "opens": [
+      "p8",
+      "png"
+     ],
+     "archives": [],
+     "notes": "Cartridges (.p8, .p8.png)."
+    }
+   ]
+  },
+  {
+   "key": "wasm4",
+   "name": "WASM-4",
+   "wiki": null,
+   "launchbox": [
+    "WASM-4"
+   ],
+   "emulators": [
+    {
+     "id": "wasm-4",
+     "rating": "added",
+     "opens": [
+      "wasm"
+     ],
+     "archives": []
+    }
+   ]
+  },
+  {
+   "key": "native-pc",
+   "name": "PC games and engines (no emulator)",
+   "wiki": null,
+   "launchbox": [
+    "Windows",
+    "Linux",
+    "Web Browser",
+    "MUGEN",
+    "OpenBOR"
+   ],
+   "emulators": [
+    {
+     "id": "native",
+     "rating": "native",
+     "opens": [
+      "folder"
+     ],
+     "archives": [],
+     "notes": "Copied as they are; the frontend launches them."
+    }
+   ]
+  }
+ ]
+}
